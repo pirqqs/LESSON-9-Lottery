@@ -42,4 +42,11 @@ module.exports = {
         noColors: true,
         // coinmarketcap: process.env.COINMARKETCAP_API_KEY,
     },
+    etherscan: {
+        apiKey: ETHERSCAN_API_KEY,
+        customChains: [],
+    },
+    mocha: {
+        timeout: 800000,
+    },
 }
